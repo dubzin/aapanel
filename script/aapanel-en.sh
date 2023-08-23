@@ -39,7 +39,7 @@ wget -O "/root/LinuxPanel_EN-6.8.23.zip" "https://ghproxy.com/https://github.com
 red "Download complete, downgrading."
 unzip LinuxPanel_EN-6.8.23.zip
 cd /root/panel
-wget -O "/root/panel/downgrade.sh" "https://ghproxy.com/https://raw.githubusercontent.com/AaronYES/aapanel/main/script/downgrade.sh" 
+wget -O "/root/panel/downgrade.sh" "https://ghproxy.com/https://raw.githubusercontent.com/dubzin/aapanel/main/script/downgrade.sh" 
 bash "/root/panel/downgrade.sh"
 red "Downgrade succeeded."
 rm /root/LinuxPanel_EN-6.8.23.zip /root/panel/ -rf
